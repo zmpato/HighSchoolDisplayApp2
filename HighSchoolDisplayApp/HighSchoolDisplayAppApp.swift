@@ -11,7 +11,11 @@ import SwiftUI
 struct HighSchoolDisplayAppApp: App {
     var body: some Scene {
         WindowGroup {
+<<<<<<< HEAD
             ContentView()
+=======
+            MainView()
+>>>>>>> 1ec642a (Initial Commit)
         }
     }
 }

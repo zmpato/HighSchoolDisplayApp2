@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		312091DE2B62A855009DDEA4 /* HighSchoolDisplayAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312091DD2B62A855009DDEA4 /* HighSchoolDisplayAppApp.swift */; };
+<<<<<<< HEAD
 		312091E02B62A855009DDEA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312091DF2B62A855009DDEA4 /* ContentView.swift */; };
 		312091E22B62A856009DDEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312091E12B62A856009DDEA4 /* Assets.xcassets */; };
 		312091E52B62A856009DDEA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312091E42B62A856009DDEA4 /* Preview Assets.xcassets */; };
+=======
+		312091E22B62A856009DDEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312091E12B62A856009DDEA4 /* Assets.xcassets */; };
+		312091E52B62A856009DDEA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312091E42B62A856009DDEA4 /* Preview Assets.xcassets */; };
+		312091EC2B62A94C009DDEA4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312091EB2B62A94C009DDEA4 /* MainView.swift */; };
+		312091EE2B62ACB7009DDEA4 /* SchoolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312091ED2B62ACB7009DDEA4 /* SchoolModel.swift */; };
+		312091F02B62AF7D009DDEA4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312091EF2B62AF7D009DDEA4 /* NetworkService.swift */; };
+		312091F22B62BA7F009DDEA4 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312091F12B62BA7F009DDEA4 /* MainViewModel.swift */; };
+>>>>>>> 1ec642a (Initial Commit)
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		312091DA2B62A855009DDEA4 /* HighSchoolDisplayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighSchoolDisplayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		312091DD2B62A855009DDEA4 /* HighSchoolDisplayAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolDisplayAppApp.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		312091DF2B62A855009DDEA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		312091E12B62A856009DDEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		312091E42B62A856009DDEA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+=======
+		312091E12B62A856009DDEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		312091E42B62A856009DDEA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		312091EB2B62A94C009DDEA4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		312091ED2B62ACB7009DDEA4 /* SchoolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolModel.swift; sourceTree = "<group>"; };
+		312091EF2B62AF7D009DDEA4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		312091F12B62BA7F009DDEA4 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+>>>>>>> 1ec642a (Initial Commit)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				312091DD2B62A855009DDEA4 /* HighSchoolDisplayAppApp.swift */,
+<<<<<<< HEAD
 				312091DF2B62A855009DDEA4 /* ContentView.swift */,
+=======
+				312091F52B6408A2009DDEA4 /* Views */,
+				312091F82B6410D3009DDEA4 /* View Models */,
+				312091FA2B6410FE009DDEA4 /* Model */,
+				312091F92B6410DE009DDEA4 /* Service  */,
+>>>>>>> 1ec642a (Initial Commit)
 				312091E12B62A856009DDEA4 /* Assets.xcassets */,
 				312091E32B62A856009DDEA4 /* Preview Content */,
 			);
@@ -67,6 +92,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		312091F52B6408A2009DDEA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				312091EB2B62A94C009DDEA4 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		312091F82B6410D3009DDEA4 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				312091F12B62BA7F009DDEA4 /* MainViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		312091F92B6410DE009DDEA4 /* Service  */ = {
+			isa = PBXGroup;
+			children = (
+				312091EF2B62AF7D009DDEA4 /* NetworkService.swift */,
+			);
+			path = "Service ";
+			sourceTree = "<group>";
+		};
+		312091FA2B6410FE009DDEA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				312091ED2B62ACB7009DDEA4 /* SchoolModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+>>>>>>> 1ec642a (Initial Commit)
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,8 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				312091E02B62A855009DDEA4 /* ContentView.swift in Sources */,
 				312091DE2B62A855009DDEA4 /* HighSchoolDisplayAppApp.swift in Sources */,
+=======
+				312091F02B62AF7D009DDEA4 /* NetworkService.swift in Sources */,
+				312091EE2B62ACB7009DDEA4 /* SchoolModel.swift in Sources */,
+				312091EC2B62A94C009DDEA4 /* MainView.swift in Sources */,
+				312091DE2B62A855009DDEA4 /* HighSchoolDisplayAppApp.swift in Sources */,
+				312091F22B62BA7F009DDEA4 /* MainViewModel.swift in Sources */,
+>>>>>>> 1ec642a (Initial Commit)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
